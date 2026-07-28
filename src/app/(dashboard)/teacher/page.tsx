@@ -141,7 +141,7 @@ const currentUserInfo = userInfo[0];
             
             </div>
 
-            <div className=" p-4 m-0.5 shadow-md bg-white sm:w-full lg:w-1/3  h-full block md:flex col-1 xl:flex flex-col gap-4 rounded-md   ">
+            <div className=" p-4 m-0.5 shadow-md bg-white sm:w-full lg:w-3/3  h-full block md:flex col-1 xl:flex flex-col gap-4 rounded-md   ">
                 <EventCalendar />
                 <Announcement AnnouncementData={AnnouncementData}/>
             </div>
