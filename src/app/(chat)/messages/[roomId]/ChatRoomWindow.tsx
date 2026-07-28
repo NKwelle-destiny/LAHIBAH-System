@@ -219,7 +219,7 @@ const handleSend = async () => {
           </button>
         ) : (
           <button type="submit" className="text-emerald-500 hover:text-emerald-400 p-2 shrink-0">
-            <svg className="w-6 h-6 rotate-90" fill="currentColor" viewBox="0 0 24 24"><path d="M2 21l21-9L2 3v7l15 2-15 2v7z"/></svg>
+            <svg className="w-6 h-6 -rotate-90" fill="currentColor" viewBox="0 0 24 24"><path d="M2 21l21-9L2 3v7l15 2-15 2v7z"/></svg>
           </button>
         )}
       </form>
